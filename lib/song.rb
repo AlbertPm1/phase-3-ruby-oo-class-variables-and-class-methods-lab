@@ -31,7 +31,6 @@ class Song
         @@artists.each {|a|a }.uniq
     end
 
-    # return genres
     def self.genres
         @@genres.each{|a|a}.uniq
     end
